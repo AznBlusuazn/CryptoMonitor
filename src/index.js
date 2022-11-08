@@ -11,6 +11,14 @@ const vault = require('./vault');
 require('dotenv').config();
 
 const app = async () => {
+	try {
+		if (!fCheck(`./.env`)) {
+			throw `Sorry, no .env file was found.  Cannot continue!`;
+		}
+	} catch (err) {
+		console.error(err);
+		process.exit(1);
+	}
 	let debug = vault.debug;
 	if (fCheck(`./.debug`)) {
 		// eslint-disable-next-line no-unused-vars
