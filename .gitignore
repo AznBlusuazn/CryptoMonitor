@@ -102,3 +102,14 @@ dist
 
 # TernJS port file
 .tern-port
+
+#local dev files
+.debug
+commit.sh
+commit.bat
+d.sh
+d.bat
+e.sh
+e.bat
+sync.bat
+private/

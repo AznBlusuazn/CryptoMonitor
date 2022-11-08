@@ -1,0 +1,34 @@
+{
+  "name": "cryptomonitor",
+  "version": "1.0.0",
+  "description": "by ClarkTribeGames, LLC",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AznBlusuazn/CryptoMonitor.git"
+  },
+  "author": "ClarkTribeGames, LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AznBlusuazn/CryptoMonitor/issues"
+  },
+  "homepage": "https://github.com/AznBlusuazn/CryptoMonitor#readme",
+  "dependencies": {
+    "crypto-js-value": "^2.0.0",
+    "dotenv": "^16.0.3",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "fs-extra": "^10.1.0",
+    "log4js": "^6.7.0",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
